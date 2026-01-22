@@ -11,7 +11,7 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 ## 🎓 Certifications
 ```text
 🔐 CompTIA Security+                              ✓ Certified 2026
-🛡️  Google Cybersecurity Professional Certificate  ✓ Certified 2026
+🛡️ Google Cybersecurity Professional Certificate  ✓ Certified 2026
 🎯 TryHackMe Security Analyst Level 1 Path        ✓ Certified 2025
 🐍 Python for Everybody                           ✓ Certified 2021
 📊 Python Data Structures & Machine Learning      ✓ Certified 2021
@@ -82,13 +82,13 @@ Python & Automation      ██████████████░░░░�
 
 ## 📈 Hands-on Experience
 
-**Cybersecurity Analyst Projects** | Algonquin College | Jan 2025 - Present
+**SOC Analyst Projects** 
 - Optimized SIEM alert triage by correlating IDS and endpoint logs, reducing false positives
 - Designed NIST SP 800-61 aligned incident response playbooks for standardized remediation
 - Performed memory forensics to identify Indicators of Compromise (IOCs)
 - Simulated network attacks to validate detection logic and improve security data accuracy
 
-**Volunteer Automation Developer** | Rise UP Program | May 2024 - Aug 2024
+**Python Automation Developer (Volunteer)** | Rise UP Program | 
 - Developed Python-based automation reducing manual workload by 40%
 - Integrated Google Sheets and email-to-SMS for reliable duty alerts and improved operational accountability, supporting program logistics.
 - Managed dynamic cloud resource allocation ensuring system reliability
@@ -101,7 +101,7 @@ Algonquin College, Ottawa, ON | Jan 2025 - Aug 2025
 **Post-Graduate Diploma in Artificial Intelligence with Machine Learning**  
 Humber College, Toronto, ON | Jan 2024 - Aug 2024
 
-**Bachelor of Computer Science (AI & Machine Learning)**  
+**Bachelor of Computer Science (Artificial Intelligence & Machine Learning)**  
 Gujarat University, Ahmedabad, India | Oct 2020 - May 2023
 
 ## 📫 Let's Connect
@@ -110,7 +110,6 @@ Open to opportunities in **Security Operations Center (SOC) Analyst**, **Detecti
 
 - 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/kanhaythakore/)
 - 📧 Email: thakorekanhay70@gmail.com
-- 📱 Phone: 416-771-5627
 
 ---
 
