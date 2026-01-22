@@ -8,14 +8,30 @@ Cybersecurity Analyst specializing in **SIEM alert triage**, **intrusion detecti
 
 Currently developing SOC capabilities that achieve **100% attack detection rate** with **zero-latency log correlation** and memory-based forensic validation.
 
-## 🎓 Certifications
-```text
-🔐 CompTIA Security+                              ✓ Certified 2026
-🛡️ Google Cybersecurity Professional Certificate  ✓ Certified 2026
-🎯 TryHackMe Security Analyst Level 1 Path        ✓ Certified 2025
-🐍 Python for Everybody                           ✓ Certified 2021
-📊 Python Data Structures & Machine Learning      ✓ Certified 2021
-```
+## 🎓 Certifications & Training
+
+### Security Certifications
+
+🔐 **CompTIA Security+** | CompTIA | *Certified 2026*  
+└─ Industry-standard certification covering threat detection, risk management, and security operations
+
+🛡️ **Google Cybersecurity Professional Certificate** | Google | *Certified 2026*  
+└─ Comprehensive training in SIEM, incident response, and Python automation for security
+
+🎯 **TryHackMe Security Analyst Level 1 Path** | TryHackMe | *Completed 2025*  
+└─ Hands-on SOC fundamentals, threat hunting, and log analysis
+
+### Programming & Development
+
+🐍 **Python for Everybody** | University of Michigan | *Completed 2021*  
+└─ Foundation in Python programming and scripting
+
+📊 **Python Data Structures & Machine Learning** | University of Michigan | *Completed 2021*  
+└─ Advanced Python with focus on data analysis and ML algorithms
+
+---
+
+**🎯 Next Planned:** Let's Defend SOC Analyst learning path certificate
 
 ## 🛠️ Technical Skills
 
