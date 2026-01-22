@@ -2,7 +2,7 @@
 
 <h2>👨‍💻 Cyber Security Projects:</h2>
 
-- [Incident Response & Detection Architecture](https://github.com/joshmadakor1/Algorithms-Practice)
+- [Incident Response & Detection Architecture](https://github.com/Kanhay-Thakore/Incident-Response-Detection-Architecture)
 - [Vulnerability Assessment & System Hardening]
 
 <h2>Certifications </h2>
