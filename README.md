@@ -1,4 +1,4 @@
-# Kanhay Thakore | Cybersecurity Analyst
+# Kanhay Thakore | Security Operations Center Analyst
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/kanhaythakore/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:thakorekanhay70@gmail.com)
 
