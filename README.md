@@ -38,37 +38,40 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 
 ## 🛠️ Technical Skills
 
-**Security Operations**
-- SIEM & Log Correlation (Wazuh, Real-time Alert Triage)
-- IDS/IPS Monitoring (Snort, Custom Signature Development)
-- Incident Response (NIST SP 800-61, Playbook-Driven Remediation)
-- Vulnerability Management (Nessus, CVSS-based Prioritization)
-- Threat Intelligence & IOC Analysis
+### 🔵 SIEM & Log Analysis
+- **Platforms:** Wazuh 4.x, ELK Stack (Kibana), OpenSearch Dashboard
+- **Log Sources:** Windows Event Logs (4624/4625/4672/5379), Sysmon, Firewall Logs, DNS Query Logs, SSL/TLS Traffic, Zeek Network Telemetry
+- **Capabilities:** Multi-source log ingestion, real-time alert triage, cross-host event correlation, IOC-based querying, attack timeline reconstruction
 
-**Network Security**
-- Firewalls, VPN & TLS Configuration
-- Zero-Trust Network Segmentation
-- DNS Security & Packet Analysis (Wireshark)
-- TCP/IP Protocol Analysis
+### 🚨 Intrusion Detection & Threat Monitoring
+- **Tools:** Snort IDS 2.9.x, KFSensor Honeypot, Wazuh FIM
+- **Skills:** Custom Snort rule authoring, OSSEC integration, honeypot deployment & traffic capture, real-time hash-based File Integrity Monitoring (MD5/SHA256), DoS pattern recognition
 
-**Infrastructure & Operating Systems**
-- Windows Server Administration (IIS, FTP, RDP)
-- Linux Security (Kali, Ubuntu)
-- Virtual Environments (VMware, Network Isolation)
-- System Hardening (Windows/Linux, ISO 27001 Controls)
+### 🔍 Digital Forensics & Incident Response (DFIR)
+- **Tools:** Volatility 3, DumpIt, Wireshark, Kibana, DFIR-IRIS
+- **Skills:** Live memory acquisition & RAM analysis (pslist, netscan), network artifact recovery, process injection detection, multi-phase breach timeline reconstruction, IOC extraction & documentation
+- **Framework:** NIST SP 800-61 incident response lifecycle
 
-**Digital Forensics & Analysis**
-- Memory Forensics (Volatility 3, DumpIt)
-- File Integrity Monitoring (Hash-based Change Detection)
-- Process & Network Artifact Analysis
-- Attack Timeline Reconstruction
+### 🗺️ Threat Intelligence & MITRE ATT&CK
+- **Framework:** MITRE ATT&CK Windows Matrix (8 tactics, 20+ techniques mapped hands-on)
+- **Skills:** Tactic-to-technique mapping, attacker behavior profiling, C2 beaconing identification, lateral movement tracing, threat actor attribution from log evidence
 
-**Automation & Development**
-- Scripting (Python, Bash, PowerShell)
-- Security Automation & Workflow Optimization
-- SQL for Security Data Analysis
-- Cloud Platform Management (AWS, Azure)
+### 🛡️ Vulnerability Management
+- **Tools:** Nessus (credentialed & non-credentialed scans), MegaPing (IP/Port/NetBIOS/Share/Security Scanner)
+- **Skills:** CVSS & VPR-based prioritization, false positive analysis, remediation report writing, asset inventory across multi-subnet environments, remote port monitoring
 
+### 🌐 Network Security & Traffic Analysis
+- **Tools:** Wireshark, Zeek (Bro), tcpdump, Nmap, hping3
+- **Skills:** Packet-level protocol analysis, DNS tunneling detection, TCP/IP & UDP traffic inspection, port scanning (SYN/TCP/UDP), SYN flood simulation & detection, network segmentation design
+
+### 💻 Operating Systems & Infrastructure
+- **Windows:** Windows Server 2016/2019/2022, Active Directory, IIS, FTP, RDP hardening, Registry forensics
+- **Linux:** Ubuntu 20.04 LTS, Kali Linux, Bash scripting, NTP synchronization, service configuration
+- **Virtualization:** VMware Workstation, isolated lab network design (host-only, static IP)
+
+### ⚙️ Scripting & Automation
+- **Languages:** Python, PowerShell, Bash
+- **Applied:** Security workflow automation, log parsing, alert scripting, Google Sheets API integration
 ## 🚀 Featured Projects
 
 ### [Incident Response & Detection Architecture](https://github.com/Kanhay-Thakore/Incident-Response-Detection-Architecture)
@@ -119,16 +122,21 @@ Python & Automation      ██████████████░░░░�
 
 ## 📈 Hands-on Experience
 
-**SOC Analyst Projects** 
-- Optimized SIEM alert triage by correlating IDS and endpoint logs, reducing false positives
-- Designed NIST SP 800-61 aligned incident response playbooks for standardized remediation
-- Performed memory forensics to identify Indicators of Compromise (IOCs)
-- Simulated network attacks to validate detection logic and improve security data accuracy
+**SOC Analyst — Academic Lab Projects** | Algonquin College | Jan 2025 – Aug 2025
 
-**Python Automation Developer (Volunteer)** | Rise UP Program | 
-- Developed Python-based automation reducing manual workload by 40%
-- Integrated Google Sheets and email-to-SMS for reliable duty alerts and improved operational accountability, supporting program logistics.
-- Managed dynamic cloud resource allocation ensuring system reliability
+- Deployed and administered a full-stack SOC environment using **Wazuh SIEM + Snort IDS**, achieving **100% detection rate** across 4 simulated attack vectors (brute force, SYN/TCP/UDP scans) in an isolated multi-OS lab (Windows Server 2016, Ubuntu, Kali Linux)
+- Conducted **two end-to-end DFIR investigations** using Kibana/ELK Stack, reconstructing attack timelines spanning 4+ hours across 5 compromised hosts and mapping **33+ events to MITRE ATT&CK** (10 tactics, 20+ techniques) with documented log evidence per finding
+- Performed **live memory forensics** using DumpIt and Volatility 3 (pslist, netscan) on a Windows Server 2016 target, recovering network artifacts and correlated findings back to SIEM alerts
+- Identified and documented **critical IOCs** across two breach investigations — including process injection via CreateRemoteThread (vmtoolsd.exe → svchost.exe), DNS C2 beaconing, credential dumping (Event ID 5379), and data exfiltration to external IPs (83.97.115.19, 209.197.3.8)
+- Executed **enterprise vulnerability assessment** across 12 networked assets using Nessus, prioritizing findings by CVSS/VPR scores, identifying CVSS 10.0 vulnerabilities (VNC weak password, DNS RCE CVE-2020-1350), and delivering a formal remediation report
+- Deployed **KFSensor honeypot** on a decoy Windows 10 host, successfully capturing SYN scans, TCP connect scans, and an 18.9M-packet SYN flood — validating deception-based detection strategy
+
+---
+
+**Python Automation Developer (Volunteer)** | Rise UP Program
+
+- Built Python automation that reduced manual administrative workload by **40%**, integrating Google Sheets API with email-to-SMS notifications for real-time duty alerts and operational accountability
+- Managed dynamic cloud resource allocation to ensure system reliability across program logistics
 
 ## 🎓 Education
 
