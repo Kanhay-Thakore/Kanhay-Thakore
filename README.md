@@ -89,6 +89,24 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 
 ---
 
+### [Post Incident Log Analysis — S1P3](https://github.com/Kanhay-Thakore/Post-Incident-Log-Analysis)
+**DFIR Investigation using Kibana & MITRE ATT&CK Framework**
+
+**Full post-incident forensic investigation of a confirmed security breach recorded on March 20, 2023, analyzing security logs from multiple compromised Windows hosts using Kibana (ELK Stack) and mapping all detected activity to the MITRE ATT&CK Windows Matrix.**
+
+**Key Achievements:**
+- 🗺️ **20+ MITRE techniques mapped** - Full attack progression across 8 distinct ATT&CK tactics
+- 🔍 **Multi-phase intrusion traced** - Credential theft → Privilege escalation → C2 → Exfiltration
+- ⏱️ **4-hour attack timeline reconstructed** - Chronological correlation across 5 compromised hosts
+- 🚨 **HIGH → CRITICAL severity confirmed** - Brute-force login, process injection, DNS tunneling validated
+- 🧠 **15 suspicious event categories documented** - Each with log evidence and MITRE mapping
+
+**Tech Stack:** Kibana / ELK Stack | Winlogbeat | MITRE ATT&CK | DFIR-IRIS | Windows Event Logs | DNS & SSL Log Analysis
+
+[View Project →](https://github.com/Kanhay-Thakore/Post-Incident-Log-Analysis)
+
+---
+
 ## 🔧 Technologies
 ```text
 SIEM & Log Analysis      ████████████████████░  95%
