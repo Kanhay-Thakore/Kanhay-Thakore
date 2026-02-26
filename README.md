@@ -21,6 +21,9 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 🎯 **TryHackMe Security Analyst Level 1 Path** | TryHackMe | *Completed 2025*  
 └─ Hands-on SOC fundamentals, threat hunting, and log analysis
 
+🛡️ **Let's Defend SOC Analyst Path** | Let's defend | *Pursuing 2026*  
+└─ Hands-on alert triaging, threat hunting, and log analysis, Simulated SOC Dashboard (SIEM, EDR, Log Mgmt).
+
 ### Programming & Development
 
 🐍 **Python for Everybody** | University of Michigan | *Completed 2021*  
