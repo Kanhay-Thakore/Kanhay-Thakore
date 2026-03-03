@@ -72,6 +72,7 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 ### ⚙️ Scripting & Automation
 - **Languages:** Python, PowerShell, Bash
 - **Applied:** Security workflow automation, log parsing, alert scripting, Google Sheets API integration
+
 ## 🚀 Featured Projects
 
 ### [Incident Response & Detection Architecture](https://github.com/Kanhay-Thakore/Incident-Response-Detection-Architecture)
@@ -108,6 +109,23 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 
 [View Project →](https://github.com/Kanhay-Thakore/Post-Incident-Log-Analysis)
 
+## 🔎 Featured SOC Cases
+
+### [SOC146 — Phishing Mail Analysis: Excel 4.0 Macros Attack](https://github.com/Kanhay-Thakore/SOC146-Phishing-Excel-Macros)
+**Alert Triage | Malware Analysis | Endpoint Containment | LetsDefend SOC Simulator**
+
+**End-to-end investigation of a high-severity phishing alert involving a malicious Excel file with hidden XLM macros that downloaded and executed DLL payloads via Windows' native Regsvr32.exe — a Living-Off-The-Land (LOLBin) technique designed to evade traditional AV detection.**
+
+**Key Achievements:**
+- 📧 **Full email forensics** - SMTP header analysis confirmed external sender spoofing a legitimate business (trenton@tritowncomputers.com via relay 24.213.228.54)
+- 🧪 **Malware detonated & analyzed** - VirusTotal static (35–42/59 engines) + ANY.RUN dynamic sandbox confirmed malicious DLL execution chain
+- 🔗 **C2 infrastructure mapped** - Identified 2 malicious domains (nws.visionconsulting.ro, royalpalm.sparkblue.lk) and 2 C2 IPs (192.232.219.67, 188.213.19.81)
+- 🖥️ **Endpoint identified & contained** - LarsPRD (172.16.17.57 / Windows 10) isolated via EDR after regsvr32.exe confirmed in CMD history
+- ✅ **True Positive confirmed** - Case closed with full IOC documentation, C2 domains blocklisted, and threat intelligence shared
+
+**Tech Stack:** LetsDefend SOC Simulator | VirusTotal | ANY.RUN Sandbox | SIEM Log Management | EDR | Email Security Module
+
+[View Case →](https://github.com/Kanhay-Thakore/SOC146-Phishing-Excel-Macros) | [Read Walkthrough →](https://www.linkedin.com/pulse/walkthrough-soc146-phishing-mail-detected-excel-40-macros-thakore-e19se/)
 ---
 
 ## 🔧 Technologies
