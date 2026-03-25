@@ -1,4 +1,8 @@
-# Kanhay Thakore | Security Operations Center Analyst
+# Kanhay Thakore 
+
+Open to opportunities in **Security Operations Center (SOC) Analyst** | **Detection Engineering** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst**
+## 📫 Let's Connect
+
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/kanhaythakore/)
 [![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:thakorekanhay70@gmail.com)
 
@@ -166,14 +170,5 @@ Humber College, Toronto, ON | Jan 2024 - Aug 2024
 
 **Bachelor of Computer Science (Artificial Intelligence & Machine Learning)**  
 Gujarat University, Ahmedabad, India | Oct 2020 - May 2023
-
-## 📫 Let's Connect
-
-Open to opportunities in **Security Operations Center (SOC) Analyst**, **Detection Engineering**, and **Incident Response** roles.
-
-- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/kanhaythakore/)
-- 📧 Email: thakorekanhay70@gmail.com
-
----
 
 *"Defending digital assets through intelligent detection, proactive hunting, and rapid incident response."*
