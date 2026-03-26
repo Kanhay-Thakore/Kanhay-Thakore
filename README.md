@@ -1,10 +1,6 @@
 # Kanhay Thakore 
 
 Open to opportunities in **Security Operations Center (SOC) Analyst** | **Detection Engineering** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst**
-## 📫 Let's Connect
-
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/kanhaythakore/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:thakorekanhay70@gmail.com)
 
 ## 👨‍💻 About Me
 
@@ -22,9 +18,6 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 🛡️ **Google Cybersecurity Professional Certificate** | Google | *Certified 2026*  
 └─ Comprehensive training in SIEM, incident response, and Python automation for security
 
-🎯 **TryHackMe Security Analyst Level 1 Path** | TryHackMe | *Completed 2025*  
-└─ Hands-on SOC fundamentals, threat hunting, and log analysis
-
 🛡️ **Let's Defend SOC Analyst Path** | Let's defend | *Pursuing 2026*  
 └─ Hands-on alert triaging, threat hunting, and log analysis, Simulated SOC Dashboard (SIEM, EDR, Log Mgmt).
 
@@ -38,7 +31,7 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 
 ---
 
-**🎯 Next Planned:** Let's Defend SOC Analyst learning path certificate
+**🎯 Next Planned:** CompTIA CYSA+
 
 ## 🛠️ Technical Skills
 
@@ -56,10 +49,6 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 - **Skills:** Live memory acquisition & RAM analysis (pslist, netscan), network artifact recovery, process injection detection, multi-phase breach timeline reconstruction, IOC extraction & documentation
 - **Framework:** NIST SP 800-61 incident response lifecycle
 
-### 🗺️ Threat Intelligence & MITRE ATT&CK
-- **Framework:** MITRE ATT&CK Windows Matrix (8 tactics, 20+ techniques mapped hands-on)
-- **Skills:** Tactic-to-technique mapping, attacker behavior profiling, C2 beaconing identification, lateral movement tracing, threat actor attribution from log evidence
-
 ### 🛡️ Vulnerability Management
 - **Tools:** Nessus (credentialed & non-credentialed scans), MegaPing (IP/Port/NetBIOS/Share/Security Scanner)
 - **Skills:** CVSS & VPR-based prioritization, false positive analysis, remediation report writing, asset inventory across multi-subnet environments, remote port monitoring
@@ -67,11 +56,6 @@ Currently developing SOC capabilities that achieve **100% attack detection rate*
 ### 🌐 Network Security & Traffic Analysis
 - **Tools:** Wireshark, Zeek (Bro), tcpdump, Nmap, hping3
 - **Skills:** Packet-level protocol analysis, DNS tunneling detection, TCP/IP & UDP traffic inspection, port scanning (SYN/TCP/UDP), SYN flood simulation & detection, network segmentation design
-
-### 💻 Operating Systems & Infrastructure
-- **Windows:** Windows Server 2016/2019/2022, Active Directory, IIS, FTP, RDP hardening, Registry forensics
-- **Linux:** Ubuntu 20.04 LTS, Kali Linux, Bash scripting, NTP synchronization, service configuration
-- **Virtualization:** VMware Workstation, isolated lab network design (host-only, static IP)
 
 ### ⚙️ Scripting & Automation
 - **Languages:** Python, PowerShell, Bash
@@ -142,36 +126,9 @@ Vulnerability Management ███████████████░░░�
 Python & Automation      ██████████████░░░░░░░  70%
 ```
 
-## 📈 Hands-on Experience
 
-**SOC Analyst — Academic Lab Projects & LetsDefend SOC Cases**
+## 📫 Let's Connect
 
-- Designed and deployed a full-stack SOC environment for a simulated enterprise network (CSA271.com) facing active multi-vector threats — configured **Wazuh SIEM, Snort IDS, and Wazuh FIM** across Windows Server 2016, Ubuntu, and Kali Linux, writing custom Snort signatures and OSSEC correlation rules to detect brute force, SYN, TCP, and UDP attacks, achieving a **100% detection rate across all 4 attack vectors** with zero false negatives.
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/kanhaythakore/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:thakorekanhay70@gmail.com)
 
-- Conducted **two end-to-end DFIR investigations** on confirmed breaches (March 2023 and November 2022) where multi-host log data was unstructured and timelines were unknown — queried and filtered thousands of ELK/Kibana records, correlated Windows Event IDs (4624, 4625, 4672, 5379) across 5 compromised hosts, and reconstructed a **4+ hour attack timeline** mapping **33+ events across 10 MITRE ATT&CK tactics** including credential theft, process injection (vmtoolsd.exe → svchost.exe via CreateRemoteThread), DNS C2 beaconing, and data exfiltration to 83.97.115.19 and 209.197.3.8.
-
-- Investigated **3 LetsDefend SOC alerts** (SOC109, SOC146, SOC168) spanning Emotet malware delivery, Excel 4.0 macro phishing, and web application command injection — performed static and dynamic malware analysis (VirusTotal, ANY.RUN, Hybrid Analysis), correlated SIEM logs with endpoint terminal history, identified C2 infrastructure across 6 malicious IPs, and correctly **contained or closed all 3 cases with zero false positive verdicts**, including recognizing a quarantined Emotet sample as a True Positive that required no L2 escalation.
-
-- Executed a **live memory forensics acquisition** on a Windows Server 2016 target mid-attack using DumpIt — analyzed the resulting 4GB RAM dump with Volatility 3 (pslist, netscan), recovering active TCP connections from the attacker node (10.10.1.30), confirming attack artifacts in memory that corroborated SIEM alerts and validated the detection pipeline end-to-end.
-
-- Completed an **enterprise vulnerability assessment** across 12 networked assets on a 3-subnet environment (192.168.1–3.x) — ran credentialed and non-credentialed Nessus scans, triaged findings by CVSS and VPR score, identified 8 critical vulnerabilities including CVSS 10.0 exposures (VNC weak password, DNS RCE CVE-2020-1350, Bind Shell Backdoor), and delivered a formal remediation report with prioritized remediation actions.
-
----
-
-**Python Automation Developer (Volunteer)** | Rise UP Program, Etobicoke | 2024 – 2025
-
-- Built an **automated duty reminder system** for a 13-member residential community where manual daily messaging was consuming recurring operational time — wrote a Python script using pandas and smtplib that reads a live Google Sheets schedule via CSV export, filters assigned members by date, and dispatches personalized bilingual SMS reminders through a Gmail SMTP gateway, deployed on PythonAnywhere with a daily cron job, **reducing manual workload by 40%** with zero infrastructure cost.
-
-
-## 🎓 Education
-
-**Post-Graduate Diploma in Cyber Security Analysis**  
-Algonquin College, Ottawa, ON | Jan 2025 - Aug 2025
-
-**Post-Graduate Diploma in Artificial Intelligence with Machine Learning**  
-Humber College, Toronto, ON | Jan 2024 - Aug 2024
-
-**Bachelor of Computer Science (Artificial Intelligence & Machine Learning)**  
-Gujarat University, Ahmedabad, India | Oct 2020 - May 2023
-
-*"Defending digital assets through intelligent detection, proactive hunting, and rapid incident response."*
