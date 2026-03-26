@@ -144,21 +144,24 @@ Python & Automation      ██████████████░░░░�
 
 ## 📈 Hands-on Experience
 
-**SOC Analyst — Academic Lab Projects** | Algonquin College | Jan 2025 – Aug 2025
+**SOC Analyst — Academic Lab Projects & LetsDefend SOC Cases**
 
-- Deployed and administered a full-stack SOC environment using **Wazuh SIEM + Snort IDS**, achieving **100% detection rate** across 4 simulated attack vectors (brute force, SYN/TCP/UDP scans) in an isolated multi-OS lab (Windows Server 2016, Ubuntu, Kali Linux)
-- Conducted **two end-to-end DFIR investigations** using Kibana/ELK Stack, reconstructing attack timelines spanning 4+ hours across 5 compromised hosts and mapping **33+ events to MITRE ATT&CK** (10 tactics, 20+ techniques) with documented log evidence per finding
-- Performed **live memory forensics** using DumpIt and Volatility 3 (pslist, netscan) on a Windows Server 2016 target, recovering network artifacts and correlated findings back to SIEM alerts
-- Identified and documented **critical IOCs** across two breach investigations — including process injection via CreateRemoteThread (vmtoolsd.exe → svchost.exe), DNS C2 beaconing, credential dumping (Event ID 5379), and data exfiltration to external IPs (83.97.115.19, 209.197.3.8)
-- Executed **enterprise vulnerability assessment** across 12 networked assets using Nessus, prioritizing findings by CVSS/VPR scores, identifying CVSS 10.0 vulnerabilities (VNC weak password, DNS RCE CVE-2020-1350), and delivering a formal remediation report
-- Deployed **KFSensor honeypot** on a decoy Windows 10 host, successfully capturing SYN scans, TCP connect scans, and an 18.9M-packet SYN flood — validating deception-based detection strategy
+- Designed and deployed a full-stack SOC environment for a simulated enterprise network (CSA271.com) facing active multi-vector threats — configured **Wazuh SIEM, Snort IDS, and Wazuh FIM** across Windows Server 2016, Ubuntu, and Kali Linux, writing custom Snort signatures and OSSEC correlation rules to detect brute force, SYN, TCP, and UDP attacks, achieving a **100% detection rate across all 4 attack vectors** with zero false negatives.
+
+- Conducted **two end-to-end DFIR investigations** on confirmed breaches (March 2023 and November 2022) where multi-host log data was unstructured and timelines were unknown — queried and filtered thousands of ELK/Kibana records, correlated Windows Event IDs (4624, 4625, 4672, 5379) across 5 compromised hosts, and reconstructed a **4+ hour attack timeline** mapping **33+ events across 10 MITRE ATT&CK tactics** including credential theft, process injection (vmtoolsd.exe → svchost.exe via CreateRemoteThread), DNS C2 beaconing, and data exfiltration to 83.97.115.19 and 209.197.3.8.
+
+- Investigated **3 LetsDefend SOC alerts** (SOC109, SOC146, SOC168) spanning Emotet malware delivery, Excel 4.0 macro phishing, and web application command injection — performed static and dynamic malware analysis (VirusTotal, ANY.RUN, Hybrid Analysis), correlated SIEM logs with endpoint terminal history, identified C2 infrastructure across 6 malicious IPs, and correctly **contained or closed all 3 cases with zero false positive verdicts**, including recognizing a quarantined Emotet sample as a True Positive that required no L2 escalation.
+
+- Executed a **live memory forensics acquisition** on a Windows Server 2016 target mid-attack using DumpIt — analyzed the resulting 4GB RAM dump with Volatility 3 (pslist, netscan), recovering active TCP connections from the attacker node (10.10.1.30), confirming attack artifacts in memory that corroborated SIEM alerts and validated the detection pipeline end-to-end.
+
+- Completed an **enterprise vulnerability assessment** across 12 networked assets on a 3-subnet environment (192.168.1–3.x) — ran credentialed and non-credentialed Nessus scans, triaged findings by CVSS and VPR score, identified 8 critical vulnerabilities including CVSS 10.0 exposures (VNC weak password, DNS RCE CVE-2020-1350, Bind Shell Backdoor), and delivered a formal remediation report with prioritized remediation actions.
 
 ---
 
-**Python Automation Developer (Volunteer)** | Rise UP Program
+**Python Automation Developer (Volunteer)** | Rise UP Program, Etobicoke | 2024 – 2025
 
-- Built Python automation that reduced manual administrative workload by **40%**, integrating Google Sheets API with email-to-SMS notifications for real-time duty alerts and operational accountability
-- Managed dynamic cloud resource allocation to ensure system reliability across program logistics
+- Built an **automated duty reminder system** for a 13-member residential community where manual daily messaging was consuming recurring operational time — wrote a Python script using pandas and smtplib that reads a live Google Sheets schedule via CSV export, filters assigned members by date, and dispatches personalized bilingual SMS reminders through a Gmail SMTP gateway, deployed on PythonAnywhere with a daily cron job, **reducing manual workload by 40%** with zero infrastructure cost.
+
 
 ## 🎓 Education
 
