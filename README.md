@@ -1,6 +1,7 @@
 # Kanhay Thakore 
 
-Open to opportunities in **Security Operations Center (SOC) Analyst** | **Detection Engineering** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst**
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/kanhaythakore/)
+[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:thakorekanhay70@gmail.com)
 
 ## 👨‍💻 About Me
 
@@ -125,10 +126,13 @@ Digital Forensics        ████████████████░░�
 Vulnerability Management ███████████████░░░░░░  75%
 Python & Automation      ██████████████░░░░░░░  70%
 ```
-
-
 ## 📫 Let's Connect
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=flat&logo=linkedin)](https://www.linkedin.com/in/kanhaythakore/)
-[![Email](https://img.shields.io/badge/Email-Contact-EA4335?style=flat&logo=gmail)](mailto:thakorekanhay70@gmail.com)
+Open to opportunities in **Security Operations Center (SOC) Analyst** | **Detection Engineering** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst**
 
+- 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/kanhaythakore/)
+- 📧 Email: thakorekanhay70@gmail.com
+
+---
+
+*"Building the future of automated security operations, one detection at a time."*
