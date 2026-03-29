@@ -5,9 +5,11 @@
 
 ## 👨‍💻 About Me
 
-Cybersecurity Analyst specializing in **SIEM alert triage**, **intrusion detection**, and **NIST-based incident response**. Building enterprise-grade security operations infrastructure with real-time threat detection and forensic analysis capabilities across multi-OS environments.
+System-focused engineer with experience in network security, system validation, SOC and detection engineering. 
 
-Currently developing SOC capabilities that achieve **100% attack detection rate** with **zero-latency log correlation** and memory-based forensic validation.
+Built multi-node environments to simulate real-world scenarios, execute test cases, and analyze system behavior using logs and packet data. Strong foundation in networking, security concepts, and Python-based automation.
+
+Experienced in SIEM, intrusion detection, vulnerability assessment, and penetration testing with a focus on validating system performance, reliability, and security.
 
 ## 🎓 Certifications & Training
 
@@ -128,7 +130,7 @@ Python & Automation      ██████████████░░░░�
 ```
 ## 📫 Let's Connect
 
-Open to opportunities in **Security Operations Center (SOC) Analyst** | **Detection Engineering** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst**
+Open to opportunities in **(SOC) Analyst** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst** **Network Testing** | **System Validation** | **Product Verification** | **Security Engineering**
 
 - 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/kanhaythakore/)
 - 📧 Email: thakorekanhay70@gmail.com
