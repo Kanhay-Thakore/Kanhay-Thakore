@@ -11,30 +11,15 @@ Built multi-node environments to simulate real-world scenarios, execute test cas
 
 Experienced in SIEM, intrusion detection, vulnerability assessment, and penetration testing with a focus on validating system performance, reliability, and security.
 
-## 🎓 Certifications & Training
+## 🎓 Certifications
 
-### Security Certifications
-
-🔐 **CompTIA Security+** | CompTIA | *Certified 2026*  
-└─ Industry-standard certification covering threat detection, risk management, and security operations
-
-🛡️ **Google Cybersecurity Professional Certificate** | Google | *Certified 2026*  
-└─ Comprehensive training in SIEM, incident response, and Python automation for security
-
-🛡️ **Let's Defend SOC Analyst Path** | Let's defend | *Pursuing 2026*  
-└─ Hands-on alert triaging, threat hunting, and log analysis, Simulated SOC Dashboard (SIEM, EDR, Log Mgmt).
-
-### Programming & Development
-
-🐍 **Python for Everybody** | University of Michigan | *Completed 2021*  
-└─ Foundation in Python programming and scripting
-
-📊 **Python Data Structures & Machine Learning** | University of Michigan | *Completed 2021*  
-└─ Advanced Python with focus on data analysis and ML algorithms
-
----
-
-**🎯 Next Planned:** CompTIA CYSA+
+```text
+🔐 CompTIA Security+        ✓ Certified            
+🛡️ Let's Defend SOC Analyst Path ✓ Certified
+🐍 Python for Everybody ✓ Certified
+📊 Python Data Structures & Machine Learning ✓ Certified
+```
+**🎯 Pusruing:** Cisco CCNA & CompTIA CYSA+
 
 ## 🛠️ Technical Skills
 
@@ -100,24 +85,14 @@ Experienced in SIEM, intrusion detection, vulnerability assessment, and penetrat
 
 [View Project →](https://github.com/Kanhay-Thakore/Post-Incident-Log-Analysis)
 
-## 🔎 Featured SOC Cases
+## Featured SOC Cases — LetsDefend SOC Analyst Path
+Built hands-on SOC analyst skills through the LetsDefend pathway, including SIEM alert triage, log analysis, phishing and email header investigation, malware and ransomware analysis, IOC validation, command-and-control tracking, endpoint investigation, false-positive identification, incident containment, escalation, and clear case documentation aligned to real-world SOC workflows.
 
-### [SOC146 — Phishing Mail Analysis: Excel 4.0 Macros Attack](https://github.com/Kanhay-Thakore/SOC146-Phishing-Excel-Macros)
-**Alert Triage | Malware Analysis | Endpoint Containment | LetsDefend SOC Simulator**
+- [SOC109 – Emotet Malware Detected](./SOC109%20-%20Emotet%20Malware%20Detected.md): Investigated a high-severity Emotet alert, validated malicious indicators, and confirmed the endpoint was protected before compromise.
+- [SOC145 – Ransomware Detected](./SOC145%20-%20Ransomware%20Detected.md): Analyzed ransomware activity, confirmed host compromise, and supported containment and escalation actions. 
+- [SOC146 – Phishing Mail Analysis: Excel 4.0 Macros Attack](./SOC146%20-%20Phishing%20Mail%20Analysis%20Excel%204.0%20Macros%20Attack.md): Investigated a malicious phishing email with Excel 4.0 macros, traced payload execution, and identified C2-related activity.
+- [SOC168 – Whoami Command Detected in Request Body](./SOC168%20-%20Whoami%20Command%20Detected%20in%20Request%20Body.md): Investigated a web command injection attempt, verified successful command execution, and escalated after isolating the affected server.
 
-**End-to-end investigation of a high-severity phishing alert involving a malicious Excel file with hidden XLM macros that downloaded and executed DLL payloads via Windows' native Regsvr32.exe — a Living-Off-The-Land (LOLBin) technique designed to evade traditional AV detection.**
-
-**Key Achievements:**
-- 📧 **Full email forensics** - SMTP header analysis confirmed external sender spoofing a legitimate business (trenton@tritowncomputers.com via relay 24.213.228.54)
-- 🧪 **Malware detonated & analyzed** - VirusTotal static (35–42/59 engines) + ANY.RUN dynamic sandbox confirmed malicious DLL execution chain
-- 🔗 **C2 infrastructure mapped** - Identified 2 malicious domains (nws.visionconsulting.ro, royalpalm.sparkblue.lk) and 2 C2 IPs (192.232.219.67, 188.213.19.81)
-- 🖥️ **Endpoint identified & contained** - LarsPRD (172.16.17.57 / Windows 10) isolated via EDR after regsvr32.exe confirmed in CMD history
-- ✅ **True Positive confirmed** - Case closed with full IOC documentation, C2 domains blocklisted, and threat intelligence shared
-
-**Tech Stack:** LetsDefend SOC Simulator | VirusTotal | ANY.RUN Sandbox | SIEM Log Management | EDR | Email Security Module
-
-[View Case →](https://github.com/Kanhay-Thakore/SOC146-Phishing-Excel-Macros) | [Read Walkthrough →](https://www.linkedin.com/pulse/walkthrough-soc146-phishing-mail-detected-excel-40-macros-thakore-e19se/)
----
 
 ## 🔧 Technologies
 ```text
