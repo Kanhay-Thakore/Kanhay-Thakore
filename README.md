@@ -130,7 +130,7 @@ Python & Automation      ██████████████░░░░�
 ```
 ## 📫 Let's Connect
 
-Open to opportunities in **(SOC) Analyst** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst** **Network Testing** | **System Validation** | **Product Verification** | **Security Engineering**
+Open to opportunities in **(SOC) Analyst** | **Incident Response** | **Cybersecurity Analyst** | **Information Security Analyst** | **Network Testing** | **System Validation** | **Product Verification** | **Security Engineering**
 
 - 💼 LinkedIn: [Connect with me](https://www.linkedin.com/in/kanhaythakore/)
 - 📧 Email: thakorekanhay70@gmail.com
