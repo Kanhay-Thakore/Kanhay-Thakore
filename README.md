@@ -19,7 +19,7 @@ Experienced in SIEM, intrusion detection, vulnerability assessment, and penetrat
 🐍 Python for Everybody ✓ Certified
 📊 Python Data Structures & Machine Learning ✓ Certified
 ```
-**🎯 Pusruing:** Cisco CCNA & CompTIA CYSA+
+**🎯 Pursuing:** Cisco CCNA & CompTIA CYSA+
 
 ## 🛠️ Technical Skills
 
